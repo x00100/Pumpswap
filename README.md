@@ -1,12 +1,3 @@
-باشه داداش، متوجه شدم! 😅
-
-من اشتباه کردم و چند بار تکراری فرستادم. الان یک بار برای همیشه فایل README رو کامل و بدون تکرار می‌فرستم:
-
----
-
-📄 فایل README.md (نسخه نهایی و کامل)
-
-```markdown
 # 🚀 PumpSwap Elite
 
 **[🌐 Live Demo](https://x00100.github.io/Pumpswap/)**
@@ -41,11 +32,8 @@
 
 ## 🐋 Master Wallet
 
-```
 
-Fvs1kuUCno3ZsYUvkLqdsfpEbrPRDWxy7sJMaKqS7DtX
 
-```
 
 🔗 **Track on Blockscan:** [View Wallet](https://blockscan.com/address/Fvs1kuUCno3ZsYUvkLqdsfpEbrPRDWxy7sJMaKqS7DtX?chainid=sol)
 
@@ -93,16 +81,8 @@ Help us reach **200+ active members**! Share this page:
 
 ## 📂 Project Structure
 
-```
 
-Pumpswap/
-├── index.html          # Main page
-├── README.md           # This file
-├── sitemap.xml         # SEO sitemap
-├── robots.txt          # SEO robots file
-└── og-image.png        # Open Graph image (1200x630)
 
-```
 
 ---
 
@@ -165,29 +145,4 @@ Contributions are welcome! Feel free to:
 Made with ❤️ by the PumpSwap Elite Community
 
 </div>
-```
 
----
-
-📄 فایل sitemap.xml (یک فایل جدا)
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://x00100.github.io/Pumpswap/</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
-```
-
----
-
-📄 فایل robots.txt (یک فایل جدا)
-
-```txt
-User-agent: *
-Allow: /
-Sitemap: https://x0
