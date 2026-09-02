@@ -21,7 +21,7 @@
     <meta property="og:description" content="Copy the top Solana whale wallet on PumpSwap. 10x gains in 48 hours. Join 85+ active traders!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://x00100.github.io/Pumpswap/" />
-    <meta property="og:image" content="https://x00100.github.io/Pumpswap/-elite/og-image.png" />
+    <meta property="og:image" content="https://x00100.github.io/Pumpswap/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="PumpSwap Elite" />
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="PumpSwap Elite • Follow Solana Whale Wallet" />
     <meta name="twitter:description" content="Copy the top Solana whale wallet on PumpSwap for 10x gains in 48 hours." />
-    <meta name="twitter:image" content="https://x00100.github.io/Pumpswap/-elite/og-image.png" />
+    <meta name="twitter:image" content="https://x00100.github.io/Pumpswap/og-image.png" />
     
     <!-- ====== STRUCTURED DATA ====== -->
     <script type="application/ld+json">
@@ -406,14 +406,15 @@
         }
 
         /* ============================================================
-                   PROFIT CLAIM
+                   PROFIT CLAIM - ONLY PUMP, NO DUMP
                    ============================================================ */
         .profit-claim {
-            background: linear-gradient(145deg, rgba(247, 201, 72, 0.06), rgba(247, 201, 72, 0.01));
+            background: linear-gradient(145deg, rgba(247, 201, 72, 0.08), rgba(247, 201, 72, 0.02));
             border-radius: 40px;
-            padding: 1.4rem 2rem;
+            padding: 1.6rem 2rem;
             border-left: 6px solid #f7c948;
             margin: 1.6rem 0 1.2rem;
+            border: 1px solid rgba(247, 201, 72, 0.1);
         }
 
         .profit-claim p {
@@ -437,8 +438,13 @@
             display: inline-block;
         }
 
+        .profit-claim .pump-only {
+            color: #4ade80;
+            font-weight: 700;
+        }
+
         /* ============================================================
-                   SHARE SECTION (NEW)
+                   SHARE SECTION
                    ============================================================ */
         .share-section {
             background: linear-gradient(145deg, rgba(247, 201, 72, 0.08), rgba(247, 201, 72, 0.02));
@@ -635,7 +641,7 @@
         }
 
         /* ============================================================
-                   RULES
+                   RULES - ONLY PUMP MENTIONED
                    ============================================================ */
         .rules-grid {
             display: grid;
@@ -948,13 +954,13 @@
             </a>
         </section>
 
-        <!-- ====== PROFIT CLAIM ====== -->
+        <!-- ====== PROFIT CLAIM - PUMP ONLY ====== -->
         <section class="profit-claim" aria-label="Profit claim">
             <p>
                 <i class="fas fa-bullhorn" style="color:#f7c948; margin-right: 14px;" aria-hidden="true"></i>
-                <strong>ZERO to HERO in 48 hours.</strong>
+                <strong>FROM ZERO TO MILLIONAIRE IN 48 HOURS!</strong><br />
                 We buy the <span style="color:#f7c948; font-weight:700;">absolute bottom</span> on PumpSwap,
-                then <strong>dump at the peak</strong> with +<span class="big-number">1,200%</span> average return.
+                then <span class="pump-only">PUMP TO THE MOON</span> with +<span class="big-number">1,200%</span> average return.
                 <br />
                 <span style="display:inline-block; margin-top: 10px; background: rgba(247, 201, 72, 0.06); padding: 0.3rem 1.4rem; border-radius: 60px;">
                     <i class="fas fa-fire" style="color:#f7c948;" aria-hidden="true"></i>
@@ -963,7 +969,7 @@
             </p>
         </section>
 
-        <!-- ====== SHARE SECTION (NEW) ====== -->
+        <!-- ====== SHARE SECTION ====== -->
         <section class="share-section" aria-label="Share and grow the community">
             <h2>
                 <i class="fas fa-share-alt" aria-hidden="true"></i>
@@ -981,27 +987,18 @@
             </p>
 
             <div class="share-buttons">
-                <!-- Twitter / X -->
                 <button class="share-btn twitter" onclick="shareOnTwitter()">
                     <i class="fab fa-x-twitter" aria-hidden="true"></i> Twitter
                 </button>
-                
-                <!-- Telegram -->
                 <button class="share-btn telegram" onclick="shareOnTelegram()">
                     <i class="fab fa-telegram-plane" aria-hidden="true"></i> Telegram
                 </button>
-                
-                <!-- WhatsApp -->
                 <button class="share-btn whatsapp" onclick="shareOnWhatsApp()">
                     <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
                 </button>
-                
-                <!-- Facebook -->
                 <button class="share-btn facebook" onclick="shareOnFacebook()">
                     <i class="fab fa-facebook-f" aria-hidden="true"></i> Facebook
                 </button>
-                
-                <!-- Copy Link -->
                 <button class="share-btn copy-link" id="shareCopyBtn" onclick="copyShareLink()">
                     <i class="fas fa-link" aria-hidden="true"></i> Copy Link
                 </button>
@@ -1047,15 +1044,15 @@
             </div>
         </section>
 
-        <!-- ====== RULES ====== -->
+        <!-- ====== RULES - NO DUMP MENTIONED ====== -->
         <section class="rules-grid" aria-label="Community rules">
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span>Sell at <strong style="color:#fce96a;">+200%</strong> minimum</span>
+                <span>Hold for <strong style="color:#fce96a;">36‑48 hours</strong> for max pump</span>
             </div>
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span>Last 5 pumps: <strong style="color:#fce96a;">100% win</strong></span>
+                <span>Last 5 pumps: <strong style="color:#fce96a;">100% win rate</strong></span>
             </div>
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
@@ -1135,7 +1132,7 @@
         // SHARE FUNCTIONS
         // ================================================================
         const SHARE_URL = encodeURIComponent('https://x00100.github.io/Pumpswap/');
-        const SHARE_TEXT = encodeURIComponent('🚀 Join PumpSwap Elite! Follow the top Solana whale wallet and earn 10x gains in 48 hours! #Solana #PumpSwap #Crypto');
+        const SHARE_TEXT = encodeURIComponent('🐋 FOLLOW THIS WALLET → BECOME A MILLIONAIRE! Copy the top Solana whale. Turn $1K into $10K+ in 48 hours. Join the elite. Get rich. 🚀 #Solana #PumpSwap #Crypto #Millionaire');
 
         function shareOnTwitter() {
             window.open(`https://twitter.com/intent/tweet?text=${SHARE_TEXT}&url=${SHARE_URL}`, '_blank', 'width=600,height=400');
