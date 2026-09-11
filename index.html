@@ -21,7 +21,7 @@
     <meta property="og:description" content="Copy the top Solana whale wallet on PumpSwap. 10x gains in 48 hours. Join 85+ active traders!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://x00100.github.io/Pumpswap/" />
-    <meta property="og:image" content="https://x00100.github.io/Pumpswap/og-image.png" />
+    <meta property="og:image" content="https://x00100.github.io/Pumpswap/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="PumpSwap Elite" />
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="PumpSwap Elite • Follow Solana Whale Wallet" />
     <meta name="twitter:description" content="Copy the top Solana whale wallet on PumpSwap for 10x gains in 48 hours." />
-    <meta name="twitter:image" content="https://x00100.github.io/Pumpswap/og-image.png" />
+    <meta name="twitter:image" content="https://x00100.github.io/Pumpswap/og-image.jpg" />
     
     <!-- ====== STRUCTURED DATA ====== -->
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
         "name": "PumpSwap Elite - Solana Whale Tracker",
         "description": "Follow the top Solana whale wallet on PumpSwap and copy every trade for massive gains.",
         "url": "https://x00100.github.io/Pumpswap/",
+        "image": "https://x00100.github.io/Pumpswap/og-image.jpg",
         "inLanguage": "en-US",
         "about": {
             "@type": "Thing",
@@ -63,7 +64,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     
     <style>
         /* ============================================================
@@ -76,7 +77,7 @@
         }
 
         body {
-            background: #060b1a;
+            background: #f5f7fc;
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             min-height: 100vh;
             display: flex;
@@ -84,9 +85,10 @@
             align-items: center;
             padding: 1.5rem;
             background-image: 
-                radial-gradient(circle at 10% 20%, #1f2a4a 0%, #070c1c 90%),
-                radial-gradient(circle at 90% 80%, #1a1f3a 0%, transparent 60%);
+                radial-gradient(circle at 10% 20%, #e8eefc 0%, #f5f7fc 90%),
+                radial-gradient(circle at 90% 80%, #eef2fd 0%, transparent 60%);
             line-height: 1.6;
+            color: #1a2340;
         }
 
         /* ============================================================
@@ -95,15 +97,15 @@
         .pump-card {
             max-width: 1000px;
             width: 100%;
-            background: rgba(8, 14, 30, 0.78);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border-radius: 60px;
             padding: 2.8rem 2.5rem;
-            border: 1px solid rgba(255, 215, 0, 0.2);
+            border: 1px solid rgba(247, 201, 72, 0.35);
             box-shadow: 
-                0 40px 80px rgba(0, 0, 0, 0.9),
-                0 0 0 1px rgba(255, 215, 0, 0.1),
+                0 40px 80px rgba(100, 120, 180, 0.15),
+                0 0 0 1px rgba(247, 201, 72, 0.15),
                 0 0 60px rgba(247, 201, 72, 0.08);
             transition: all 0.3s ease;
             position: relative;
@@ -117,7 +119,7 @@
             left: -20%;
             width: 140%;
             height: 140%;
-            background: radial-gradient(circle at 30% 40%, rgba(247, 201, 72, 0.04), transparent 70%);
+            background: radial-gradient(circle at 30% 40%, rgba(247, 201, 72, 0.06), transparent 70%);
             pointer-events: none;
         }
 
@@ -135,8 +137,8 @@
             font-size: 0.8rem;
             letter-spacing: 0.6px;
             color: #fff;
-            box-shadow: 0 4px 20px rgba(153, 69, 255, 0.4);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 20px rgba(153, 69, 255, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             margin-bottom: 1.2rem;
             text-transform: uppercase;
         }
@@ -148,11 +150,10 @@
             font-size: clamp(2.8rem, 8vw, 4.2rem);
             font-weight: 900;
             line-height: 1.05;
-            background: linear-gradient(135deg, #fce96a, #f7b731, #f59e0b);
+            background: linear-gradient(135deg, #d4a017, #f7b731, #e89b0c);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            text-shadow: 0 0 40px rgba(247, 201, 72, 0.2);
             letter-spacing: -1px;
             margin-bottom: 0.3rem;
         }
@@ -160,27 +161,27 @@
         .subhead {
             font-size: clamp(1rem, 2vw, 1.4rem);
             font-weight: 500;
-            color: #b9ceff;
+            color: #4a5b82;
             display: flex;
             align-items: center;
             gap: 12px;
             flex-wrap: wrap;
             margin-bottom: 1.4rem;
             padding-bottom: 0.8rem;
-            border-bottom: 1px solid rgba(255, 215, 0, 0.06);
+            border-bottom: 1px solid rgba(180, 195, 230, 0.4);
         }
 
         .subhead i {
-            color: #f7c948;
+            color: #d4a017;
         }
 
         .highlight-pump {
-            background: rgba(247, 201, 72, 0.12);
+            background: rgba(247, 201, 72, 0.18);
             padding: 0.2rem 1.2rem;
             border-radius: 60px;
-            border: 1px solid rgba(247, 201, 72, 0.2);
+            border: 1px solid rgba(247, 201, 72, 0.4);
             font-weight: 700;
-            color: #f7d44a;
+            color: #a67c00;
             font-size: 0.9em;
         }
 
@@ -188,7 +189,7 @@
                    FOLLOW ALERT
                    ============================================================ */
         .follow-alert {
-            background: linear-gradient(145deg, rgba(247, 201, 72, 0.12), rgba(247, 201, 72, 0.03));
+            background: linear-gradient(145deg, rgba(247, 201, 72, 0.22), rgba(247, 201, 72, 0.06));
             border: 2px solid #f7c948;
             border-radius: 30px;
             padding: 1rem 1.8rem;
@@ -200,42 +201,42 @@
         .follow-alert p {
             font-size: clamp(1rem, 1.5vw, 1.3rem);
             font-weight: 700;
-            color: #fce96a;
+            color: #8a6d00;
             letter-spacing: 0.5px;
         }
 
         .follow-alert i {
-            color: #f7c948;
+            color: #d4a017;
             margin: 0 8px;
         }
 
         .follow-alert .highlight {
-            background: rgba(247, 201, 72, 0.15);
+            background: rgba(247, 201, 72, 0.35);
             padding: 0.2rem 1rem;
             border-radius: 30px;
-            border: 1px solid rgba(247, 201, 72, 0.3);
+            border: 1px solid rgba(247, 201, 72, 0.5);
+            color: #6b5200;
         }
 
         @keyframes pulseAlert {
             0%, 100% { opacity: 1; }
-            50% { opacity: 0.85; box-shadow: 0 0 30px rgba(247, 201, 72, 0.1); }
+            50% { opacity: 0.9; box-shadow: 0 0 30px rgba(247, 201, 72, 0.25); }
         }
 
         /* ============================================================
                    EXCLUSIVE BADGE
                    ============================================================ */
         .exclusive-badge {
-            background: rgba(247, 201, 72, 0.07);
-            border: 1px solid rgba(247, 201, 72, 0.15);
+            background: rgba(247, 201, 72, 0.15);
+            border: 1px solid rgba(247, 201, 72, 0.4);
             border-radius: 80px;
             padding: 0.5rem 1.8rem;
             display: inline-flex;
             align-items: center;
             gap: 12px;
             font-weight: 600;
-            color: #f7d44a;
+            color: #8a6d00;
             margin: 0.4rem 0 1.4rem;
-            backdrop-filter: blur(4px);
             font-size: clamp(0.8rem, 1.2vw, 1rem);
             flex-wrap: wrap;
         }
@@ -251,25 +252,25 @@
         }
 
         .promise-item {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 215, 0, 0.08);
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(180, 195, 230, 0.5);
             border-radius: 28px;
             padding: 1.2rem 0.8rem;
             text-align: center;
-            backdrop-filter: blur(4px);
             transition: all 0.25s;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 12px rgba(100, 120, 180, 0.08);
         }
 
         .promise-item:hover {
             transform: translateY(-4px);
             border-color: #f7c948;
-            background: rgba(247, 201, 72, 0.05);
+            background: rgba(247, 201, 72, 0.06);
+            box-shadow: 0 8px 24px rgba(247, 201, 72, 0.2);
         }
 
         .promise-item i {
             font-size: clamp(1.8rem, 3vw, 2.4rem);
-            color: #f7c948;
+            color: #d4a017;
             margin-bottom: 0.3rem;
             display: block;
         }
@@ -277,20 +278,20 @@
         .promise-item .number {
             font-size: clamp(1.6rem, 3vw, 2.2rem);
             font-weight: 800;
-            color: #fce96a;
+            color: #b8860b;
             display: block;
             line-height: 1.2;
         }
 
         .promise-item .label {
             font-size: clamp(0.75rem, 1vw, 0.9rem);
-            color: #b0c6f0;
+            color: #4a5b82;
             font-weight: 500;
         }
 
         .promise-item .sub-label {
             font-size: 0.7rem;
-            color: #7a8fc0;
+            color: #8a97b8;
             display: block;
         }
 
@@ -298,11 +299,11 @@
                    WALLET SECTION
                    ============================================================ */
         .wallet-section {
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(245, 248, 255, 0.9);
             border-radius: 50px;
             padding: 1.2rem 1.8rem;
             margin: 1.8rem 0 2rem;
-            border: 1px solid rgba(255, 215, 0, 0.12);
+            border: 1px solid rgba(180, 195, 230, 0.5);
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -315,12 +316,12 @@
             align-items: center;
             gap: 12px;
             font-weight: 600;
-            color: #d6e2ff;
+            color: #2c3a5e;
             font-size: clamp(0.85rem, 1.2vw, 1rem);
         }
 
         .wallet-label i {
-            color: #f7c948;
+            color: #d4a017;
             font-size: clamp(1.2rem, 2vw, 1.6rem);
         }
 
@@ -333,27 +334,30 @@
         }
 
         .wallet-addr {
-            background: #0b1129;
-            padding: 0.5rem 1.2rem;
+            background: #ffffff;
+            padding: 0.6rem 1.3rem;
             border-radius: 80px;
             font-family: 'Menlo', 'Courier New', monospace;
-            font-size: clamp(0.65rem, 1vw, 0.9rem);
-            color: #e0ebff;
-            border: 1px solid #2f4070;
+            font-size: clamp(0.75rem, 1.1vw, 1rem);
+            font-weight: 700;
+            color: #1a2340;
+            border: 1px solid #c8d4ec;
             word-break: break-all;
             flex: 1;
             min-width: 120px;
+            letter-spacing: 0.3px;
         }
 
         .copy-btn {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid #2f4070;
-            color: #b9ceff;
-            padding: 0.4rem 0.8rem;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid #c8d4ec;
+            color: #4a5b82;
+            padding: 0.5rem 1rem;
             border-radius: 40px;
             cursor: pointer;
             transition: all 0.2s;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
+            font-weight: 600;
             display: inline-flex;
             align-items: center;
             gap: 6px;
@@ -361,15 +365,15 @@
         }
 
         .copy-btn:hover {
-            background: rgba(247, 201, 72, 0.1);
+            background: rgba(247, 201, 72, 0.2);
             border-color: #f7c948;
-            color: #f7c948;
+            color: #8a6d00;
         }
 
         .copy-btn.copied {
-            background: rgba(74, 222, 128, 0.15);
+            background: rgba(74, 222, 128, 0.2);
             border-color: #4ade80;
-            color: #4ade80;
+            color: #16a34a;
         }
 
         .btn-pump {
@@ -379,7 +383,7 @@
             padding: 0.8rem 2.2rem;
             font-weight: 700;
             font-size: clamp(0.9rem, 1.2vw, 1.1rem);
-            color: #0b0e1a;
+            color: #1a2340;
             display: inline-flex;
             align-items: center;
             gap: 10px;
@@ -387,13 +391,13 @@
             transition: all 0.25s ease;
             cursor: pointer;
             text-decoration: none;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.4);
             white-space: nowrap;
         }
 
         .btn-pump:hover {
             background: linear-gradient(145deg, #ffd966, #f7b32b);
-            box-shadow: 0 10px 40px rgba(247, 201, 72, 0.7);
+            box-shadow: 0 10px 40px rgba(247, 201, 72, 0.6);
             transform: scale(1.03);
         }
 
@@ -406,40 +410,40 @@
         }
 
         /* ============================================================
-                   PROFIT CLAIM - ONLY PUMP, NO DUMP
+                   PROFIT CLAIM
                    ============================================================ */
         .profit-claim {
-            background: linear-gradient(145deg, rgba(247, 201, 72, 0.08), rgba(247, 201, 72, 0.02));
+            background: linear-gradient(145deg, rgba(247, 201, 72, 0.15), rgba(247, 201, 72, 0.04));
             border-radius: 40px;
             padding: 1.6rem 2rem;
             border-left: 6px solid #f7c948;
             margin: 1.6rem 0 1.2rem;
-            border: 1px solid rgba(247, 201, 72, 0.1);
+            border: 1px solid rgba(247, 201, 72, 0.25);
         }
 
         .profit-claim p {
             font-size: clamp(0.95rem, 1.3vw, 1.1rem);
             line-height: 1.7;
-            color: #dce6ff;
+            color: #2c3a5e;
         }
 
         .profit-claim strong {
-            color: #fce96a;
+            color: #a67c00;
             font-weight: 800;
         }
 
         .profit-claim .big-number {
             font-size: clamp(1.4rem, 2.5vw, 1.9rem);
             font-weight: 900;
-            color: #f7c948;
-            background: rgba(0, 0, 0, 0.3);
+            color: #8a6d00;
+            background: rgba(247, 201, 72, 0.25);
             padding: 0 14px;
             border-radius: 20px;
             display: inline-block;
         }
 
         .profit-claim .pump-only {
-            color: #4ade80;
+            color: #16a34a;
             font-weight: 700;
         }
 
@@ -447,18 +451,18 @@
                    SHARE SECTION
                    ============================================================ */
         .share-section {
-            background: linear-gradient(145deg, rgba(247, 201, 72, 0.08), rgba(247, 201, 72, 0.02));
+            background: linear-gradient(145deg, rgba(247, 201, 72, 0.15), rgba(247, 201, 72, 0.04));
             border-radius: 40px;
             padding: 1.8rem 2rem;
             margin: 1.8rem 0 1.2rem;
-            border: 1px solid rgba(247, 201, 72, 0.12);
+            border: 1px solid rgba(247, 201, 72, 0.25);
             text-align: center;
         }
 
         .share-section h2 {
             font-size: clamp(1.3rem, 2vw, 1.8rem);
             font-weight: 800;
-            color: #fce96a;
+            color: #a67c00;
             margin-bottom: 0.6rem;
             display: flex;
             align-items: center;
@@ -468,11 +472,11 @@
         }
 
         .share-section h2 i {
-            color: #f7c948;
+            color: #d4a017;
         }
 
         .share-description {
-            color: #b9ceff;
+            color: #2c3a5e;
             font-size: clamp(0.95rem, 1.2vw, 1.1rem);
             max-width: 700px;
             margin: 0 auto 1.4rem;
@@ -480,7 +484,7 @@
         }
 
         .share-description strong {
-            color: #fce96a;
+            color: #8a6d00;
         }
 
         .share-buttons {
@@ -504,61 +508,45 @@
             transition: all 0.25s ease;
             text-decoration: none;
             color: #fff;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
         }
 
         .share-btn:hover {
             transform: translateY(-3px) scale(1.03);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
         }
 
         .share-btn i {
             font-size: 1.1rem;
         }
 
-        .share-btn.twitter {
-            background: #1DA1F2;
-        }
-        .share-btn.twitter:hover {
-            background: #1a8cd8;
-        }
+        .share-btn.twitter { background: #1DA1F2; }
+        .share-btn.twitter:hover { background: #1a8cd8; }
 
-        .share-btn.telegram {
-            background: #0088cc;
-        }
-        .share-btn.telegram:hover {
-            background: #0077b5;
-        }
+        .share-btn.telegram { background: #0088cc; }
+        .share-btn.telegram:hover { background: #0077b5; }
 
-        .share-btn.whatsapp {
-            background: #25D366;
-        }
-        .share-btn.whatsapp:hover {
-            background: #1da85c;
-        }
+        .share-btn.whatsapp { background: #25D366; }
+        .share-btn.whatsapp:hover { background: #1da85c; }
 
-        .share-btn.facebook {
-            background: #1877F2;
-        }
-        .share-btn.facebook:hover {
-            background: #1565c0;
-        }
+        .share-btn.facebook { background: #1877F2; }
+        .share-btn.facebook:hover { background: #1565c0; }
 
         .share-btn.copy-link {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            color: #d6e2ff;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid #c8d4ec;
+            color: #2c3a5e;
         }
         .share-btn.copy-link:hover {
-            background: rgba(247, 201, 72, 0.15);
+            background: rgba(247, 201, 72, 0.2);
             border-color: #f7c948;
-            color: #f7c948;
+            color: #8a6d00;
         }
 
         .share-btn.copy-link.copied {
-            background: rgba(74, 222, 128, 0.15);
+            background: rgba(74, 222, 128, 0.2);
             border-color: #4ade80;
-            color: #4ade80;
+            color: #16a34a;
         }
 
         .share-stats {
@@ -568,11 +556,11 @@
             flex-wrap: wrap;
             margin-top: 1.2rem;
             padding-top: 1.2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            border-top: 1px solid rgba(180, 195, 230, 0.4);
         }
 
         .share-stats span {
-            color: #8aa1d4;
+            color: #4a5b82;
             font-size: clamp(0.8rem, 1vw, 0.9rem);
             display: flex;
             align-items: center;
@@ -580,22 +568,22 @@
         }
 
         .share-stats i {
-            color: #f7c948;
+            color: #d4a017;
         }
 
         .share-stats strong {
-            color: #fce96a;
+            color: #a67c00;
         }
 
         /* ============================================================
                    TIMER SECTION
                    ============================================================ */
         .timer-section {
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(245, 248, 255, 0.9);
             border-radius: 40px;
             padding: 1rem 1.8rem;
             margin: 1.4rem 0;
-            border: 1px solid rgba(255, 215, 0, 0.08);
+            border: 1px solid rgba(180, 195, 230, 0.5);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -607,12 +595,12 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            color: #b9ceff;
+            color: #4a5b82;
             font-weight: 500;
         }
 
         .timer-label i {
-            color: #f7c948;
+            color: #d4a017;
             font-size: 1.2rem;
         }
 
@@ -621,7 +609,7 @@
             gap: 12px;
             font-family: 'Menlo', 'Courier New', monospace;
             font-weight: 700;
-            color: #fce96a;
+            color: #a67c00;
             font-size: clamp(1.2rem, 2vw, 1.6rem);
         }
 
@@ -635,13 +623,13 @@
         .timer-unit span:last-child {
             font-size: 0.55rem;
             font-weight: 400;
-            color: #6a7fa8;
+            color: #8a97b8;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
 
         /* ============================================================
-                   RULES - ONLY PUMP MENTIONED
+                   RULES
                    ============================================================ */
         .rules-grid {
             display: grid;
@@ -651,82 +639,211 @@
         }
 
         .rule-item {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 255, 255, 0.04);
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(180, 195, 230, 0.5);
             border-radius: 20px;
             padding: 0.8rem 1.2rem;
             display: flex;
             align-items: center;
             gap: 12px;
-            color: #b0c6f0;
+            color: #2c3a5e;
             font-size: clamp(0.8rem, 1vw, 0.9rem);
         }
 
         .rule-item i {
-            color: #4ade80;
+            color: #16a34a;
             font-size: 1rem;
             min-width: 20px;
         }
 
         /* ============================================================
-                   SEO LINKS
+                   DONATE SECTION
                    ============================================================ */
-        .seo-links {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1.2rem;
-            margin: 1.8rem 0 1rem;
-            padding: 1rem 1.5rem;
-            background: rgba(255, 255, 255, 0.02);
-            border-radius: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.04);
+        .donate-section {
+            background: linear-gradient(145deg, rgba(247, 201, 72, 0.18), rgba(247, 201, 72, 0.05));
+            border-radius: 40px;
+            padding: 1.8rem 2rem;
+            margin: 1.6rem 0 1.4rem;
+            border: 1px solid rgba(247, 201, 72, 0.35);
+            text-align: center;
         }
 
-        .seo-links a {
-            color: #8aa1d4;
-            text-decoration: none;
-            font-size: clamp(0.8rem, 1vw, 0.9rem);
-            transition: color 0.2s;
+        .donate-section h3 {
+            font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+            font-weight: 800;
+            color: #a67c00;
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .donate-section h3 i {
+            color: #d4a017;
+            animation: heartBeat 2s infinite ease-in-out;
+        }
+
+        @keyframes heartBeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+
+        .donate-description {
+            color: #2c3a5e;
+            font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+            max-width: 720px;
+            margin: 0 auto 1.4rem;
+            line-height: 1.8;
+        }
+
+        .donate-description strong {
+            color: #8a6d00;
+        }
+
+        .donate-wallet-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 1.2rem 0 1rem;
+        }
+
+        .donate-wallet {
+            background: #ffffff;
+            padding: 0.8rem 1.8rem;
+            border-radius: 80px;
+            font-family: 'Menlo', 'Courier New', monospace;
+            font-size: clamp(0.8rem, 1.2vw, 1.05rem);
+            font-weight: 700;
+            color: #1a2340;
+            border: 1.5px solid #f7c948;
+            word-break: break-all;
+            box-shadow: 0 4px 14px rgba(247, 201, 72, 0.2);
+            letter-spacing: 0.3px;
+        }
+
+        .donate-copy-btn {
+            background: linear-gradient(145deg, #f7c948, #f5a623);
+            border: none;
+            color: #1a2340;
+            padding: 0.8rem 1.8rem;
+            border-radius: 80px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            font-size: clamp(0.85rem, 1vw, 1rem);
+            font-weight: 700;
             display: inline-flex;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
+            box-shadow: 0 6px 20px rgba(247, 201, 72, 0.4);
+            white-space: nowrap;
         }
 
-        .seo-links a:hover {
-            color: #f7c948;
+        .donate-copy-btn:hover {
+            background: linear-gradient(145deg, #ffd966, #f7b32b);
+            box-shadow: 0 8px 28px rgba(247, 201, 72, 0.6);
+            transform: scale(1.05);
         }
 
-        .seo-links a i {
-            color: #f7c948;
-            font-size: 0.8rem;
+        .donate-copy-btn.copied {
+            background: linear-gradient(145deg, #4ade80, #16a34a);
+            color: #fff;
+        }
+
+        .donate-thanks {
+            color: #8a6d00;
+            font-size: clamp(0.85rem, 1vw, 1rem);
+            font-weight: 600;
+            margin-top: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .donate-thanks i {
+            color: #d4a017;
         }
 
         /* ============================================================
-                   FOOTNOTE
+                   SOCIAL LINKS SECTION
                    ============================================================ */
-        .footnote {
-            margin-top: 2rem;
-            padding-top: 1.6rem;
-            border-top: 1px solid rgba(255, 215, 0, 0.05);
+        .social-section {
+            background: linear-gradient(145deg, rgba(247, 201, 72, 0.12), rgba(247, 201, 72, 0.03));
+            border-radius: 40px;
+            padding: 1.6rem 2rem;
+            margin: 1.6rem 0 0.5rem;
+            border: 1px solid rgba(247, 201, 72, 0.25);
+            text-align: center;
+        }
+
+        .social-section h3 {
+            font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+            font-weight: 800;
+            color: #a67c00;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .social-section h3 i {
+            color: #d4a017;
+        }
+
+        .social-buttons {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 1.2rem;
-            font-size: clamp(0.75rem, 1vw, 0.9rem);
-            color: #6a7fa8;
+            gap: 1rem;
         }
 
-        .footnote i {
-            color: #f7c948;
-            margin-right: 6px;
-        }
-
-        .footnote span {
-            background: rgba(255, 215, 0, 0.02);
-            padding: 0.2rem 1.2rem;
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 0.9rem 2rem;
             border-radius: 60px;
-            border: 1px solid rgba(255, 215, 0, 0.04);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+            transition: all 0.25s ease;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            min-width: 180px;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-4px) scale(1.04);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+        }
+
+        .social-btn i {
+            font-size: 1.4rem;
+        }
+
+        .social-btn.telegram-btn {
+            background: linear-gradient(145deg, #29a9eb, #0088cc);
+            color: #fff;
+        }
+
+        .social-btn.telegram-btn:hover {
+            background: linear-gradient(145deg, #3cb5f2, #0077b5);
+        }
+
+        .social-btn.x-btn {
+            background: linear-gradient(145deg, #2c2c2c, #000000);
+            color: #fff;
+        }
+
+        .social-btn.x-btn:hover {
+            background: linear-gradient(145deg, #404040, #1a1a1a);
         }
 
         /* ============================================================
@@ -780,6 +897,19 @@
                 padding: 0.6rem 1.2rem;
                 font-size: 0.8rem;
             }
+
+            .social-section {
+                padding: 1.2rem 1rem;
+            }
+
+            .social-btn {
+                padding: 0.8rem 1.6rem;
+                min-width: 160px;
+            }
+
+            .donate-section {
+                padding: 1.4rem 1.2rem;
+            }
         }
 
         @media (max-width: 520px) {
@@ -809,23 +939,17 @@
             }
 
             .wallet-addr {
-                font-size: 0.6rem;
-                padding: 0.3rem 0.8rem;
+                font-size: 0.7rem;
+                padding: 0.4rem 0.9rem;
             }
 
             .copy-btn {
-                font-size: 0.7rem;
-                padding: 0.3rem 0.6rem;
+                font-size: 0.75rem;
+                padding: 0.4rem 0.7rem;
             }
 
             .rules-grid {
                 grid-template-columns: 1fr;
-            }
-
-            .seo-links {
-                flex-direction: column;
-                align-items: center;
-                padding: 0.8rem;
             }
 
             .share-stats {
@@ -837,15 +961,40 @@
             .share-section h2 {
                 font-size: 1.1rem;
             }
+
+            .social-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .social-btn {
+                justify-content: center;
+                width: 100%;
+            }
+
+            .donate-wallet-wrapper {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .donate-wallet {
+                font-size: 0.75rem;
+                padding: 0.6rem 1rem;
+            }
+
+            .donate-copy-btn {
+                justify-content: center;
+                width: 100%;
+            }
         }
 
         /* ============================================================
                    ANIMATIONS
                    ============================================================ */
         @keyframes glowPulse {
-            0% { box-shadow: 0 0 10px rgba(247, 201, 72, 0.05); }
-            50% { box-shadow: 0 0 50px rgba(247, 201, 72, 0.15); }
-            100% { box-shadow: 0 0 10px rgba(247, 201, 72, 0.05); }
+            0% { box-shadow: 0 0 10px rgba(247, 201, 72, 0.15); }
+            50% { box-shadow: 0 0 50px rgba(247, 201, 72, 0.3); }
+            100% { box-shadow: 0 0 10px rgba(247, 201, 72, 0.15); }
         }
         .glow-border {
             animation: glowPulse 4s infinite ease-in-out;
@@ -874,11 +1023,11 @@
         </div>
 
         <!-- ====== HEADING ====== -->
-        <h1>PUMP<span style="color:#fce96a;">SWAP</span> ELITE</h1>
+        <h1>PUMP<span style="color:#d4a017;">SWAP</span> ELITE</h1>
         <div class="subhead">
             <i class="fas fa-bolt" aria-hidden="true"></i>
             <span>only on <span class="highlight-pump"><i class="fas fa-exchange-alt" aria-hidden="true"></i> PumpSwap</span></span>
-            <span style="color:#6f89c0;">•</span>
+            <span style="color:#8a97b8;">•</span>
             <span><i class="fas fa-coins" aria-hidden="true"></i> Solana native</span>
         </div>
 
@@ -889,9 +1038,9 @@
                 <span class="highlight">FOLLOW THIS WALLET</span>
                 <i class="fas fa-arrow-left" aria-hidden="true"></i>
                 <br style="display: none;" />
-                <span style="font-weight: 400; color: #b9ceff; font-size: 0.85em;">
-                    Whatever this wallet buys → <strong style="color: #fce96a;">YOU BUY</strong> · 
-                    Whatever it sells → <strong style="color: #fce96a;">YOU SELL</strong>
+                <span style="font-weight: 400; color: #4a5b82; font-size: 0.85em;">
+                    Whatever this wallet buys → <strong style="color: #a67c00;">YOU BUY</strong> · 
+                    Whatever it sells → <strong style="color: #a67c00;">YOU SELL</strong>
                 </span>
             </p>
         </section>
@@ -934,7 +1083,7 @@
         <section class="wallet-section" aria-label="Master wallet address">
             <div class="wallet-label">
                 <i class="fas fa-address-card" aria-hidden="true"></i>
-                <span>Master wallet <span style="font-weight:400; color:#8aa1d4;">(copy this wallet)</span></span>
+                <span>Master wallet <span style="font-weight:400; color:#8a97b8;">(copy this wallet)</span></span>
             </div>
             <div class="wallet-addr-wrapper">
                 <div class="wallet-addr" id="walletDisplay" aria-label="Wallet address">
@@ -954,17 +1103,17 @@
             </a>
         </section>
 
-        <!-- ====== PROFIT CLAIM - PUMP ONLY ====== -->
+        <!-- ====== PROFIT CLAIM ====== -->
         <section class="profit-claim" aria-label="Profit claim">
             <p>
-                <i class="fas fa-bullhorn" style="color:#f7c948; margin-right: 14px;" aria-hidden="true"></i>
-                <strong>FROM ZERO TO MILLIONAIRE IN 48 HOURS!</strong><br />
-                We buy the <span style="color:#f7c948; font-weight:700;">absolute bottom</span> on PumpSwap,
+                <i class="fas fa-bullhorn" style="color:#d4a017; margin-right: 14px;" aria-hidden="true"></i>
+                <strong>FROM ZERO TO MILLIONAIRE!</strong><br />
+                We buy the <span style="color:#a67c00; font-weight:700;">absolute bottom</span> on PumpSwap,
                 then <span class="pump-only">PUMP TO THE MOON</span> with +<span class="big-number">1,200%</span> average return.
                 <br />
-                <span style="display:inline-block; margin-top: 10px; background: rgba(247, 201, 72, 0.06); padding: 0.3rem 1.4rem; border-radius: 60px;">
-                    <i class="fas fa-fire" style="color:#f7c948;" aria-hidden="true"></i>
-                    Last pump: <strong style="color:#fce96a;">+890%</strong> in 42 hours
+                <span style="display:inline-block; margin-top: 10px; background: rgba(247, 201, 72, 0.2); padding: 0.3rem 1.4rem; border-radius: 60px; border: 1px solid rgba(247, 201, 72, 0.3);">
+                    <i class="fas fa-fire" style="color:#d4a017;" aria-hidden="true"></i>
+                    Last pump: <strong style="color:#8a6d00;">+890%</strong> in 42 hours
                 </span>
             </p>
         </section>
@@ -978,12 +1127,12 @@
             </h2>
             
             <p class="share-description">
-                <i class="fas fa-quote-left" style="color:#f7c948; opacity:0.5; margin-right:6px;" aria-hidden="true"></i>
+                <i class="fas fa-quote-left" style="color:#d4a017; opacity:0.6; margin-right:6px;" aria-hidden="true"></i>
                 <strong>Together we rise!</strong> 
                 The more people join our community, the <strong>stronger our pumps</strong> become. 
                 Share this page with your friends, crypto groups, and fellow traders. 
                 Every new member adds <strong>more buying power</strong> and <strong>bigger profits</strong> for everyone!
-                <i class="fas fa-quote-right" style="color:#f7c948; opacity:0.5; margin-left:6px;" aria-hidden="true"></i>
+                <i class="fas fa-quote-right" style="color:#d4a017; opacity:0.6; margin-left:6px;" aria-hidden="true"></i>
             </p>
 
             <div class="share-buttons">
@@ -1031,12 +1180,12 @@
                     <span id="hours">12</span>
                     <span>hours</span>
                 </div>
-                <span style="color:#6a7fa8;">:</span>
+                <span style="color:#8a97b8;">:</span>
                 <div class="timer-unit">
                     <span id="minutes">34</span>
                     <span>min</span>
                 </div>
-                <span style="color:#6a7fa8;">:</span>
+                <span style="color:#8a97b8;">:</span>
                 <div class="timer-unit">
                     <span id="seconds">56</span>
                     <span>sec</span>
@@ -1044,68 +1193,79 @@
             </div>
         </section>
 
-        <!-- ====== RULES - NO DUMP MENTIONED ====== -->
+        <!-- ====== RULES ====== -->
         <section class="rules-grid" aria-label="Community rules">
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span>Hold for <strong style="color:#fce96a;">36‑48 hours</strong> for max pump</span>
+                <span>Hold for <strong style="color:#a67c00;">36‑48 hours</strong> for max pump</span>
             </div>
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span>Last 5 pumps: <strong style="color:#fce96a;">100% win rate</strong></span>
+                <span>Last 5 pumps: <strong style="color:#a67c00;">100% win rate</strong></span>
             </div>
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span>Verified on <strong style="color:#fce96a;">Solana</strong></span>
+                <span>Verified on <strong style="color:#a67c00;">Solana</strong></span>
             </div>
             <div class="rule-item">
                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span>Copy every move <strong style="color:#fce96a;">instantly</strong></span>
+                <span>Copy every move <strong style="color:#a67c00;">instantly</strong></span>
             </div>
         </section>
 
-        <!-- ====== SEO LINKS ====== -->
-        <nav class="seo-links" aria-label="Useful links">
-            <a href="https://pumpswap.io/" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-exchange-alt" aria-hidden="true"></i> PumpSwap Official
-            </a>
-            <a href="https://solana.com/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-solana" aria-hidden="true"></i> Solana Network
-            </a>
-            <a href="https://solscan.io/" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-search" aria-hidden="true"></i> Solscan Explorer
-            </a>
-            <a href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-chart-simple" aria-hidden="true"></i> DexScreener
-            </a>
-        </nav>
+        <!-- ====== DONATE SECTION ====== -->
+        <section class="donate-section" aria-label="Support the community">
+            <h3>
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                Support the Community
+                <i class="fas fa-heart" aria-hidden="true"></i>
+            </h3>
+            
+            <p class="donate-description">
+                <strong>Our whale tracker is 100% free and community-driven.</strong><br />
+                If our pumps helped you profit, consider sending a small tip to keep the community growing.<br />
+                <strong>Every SOL goes towards bigger pumps for everyone!</strong>
+            </p>
 
-        <!-- ====== EXTRA LINKS ====== -->
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin: 1.2rem 0 0.2rem;">
-            <a href="https://blockscan.com/address/8Ac2rqrByi4oDi6KiYt53h3tzPCXE9YqFbz2eLxMhi81"
-               target="_blank"
-               rel="noopener noreferrer"
-               style="color: #b9c8f0; background: rgba(255,255,255,0.02); padding: 0.4rem 1.8rem; border-radius: 80px; border: 1px solid #2c3a6a; text-decoration: none; font-weight: 500; transition: 0.2s; display: inline-flex; align-items: center; gap: 8px; font-size: clamp(0.75rem, 1vw, 0.9rem);">
-                <i class="fas fa-external-link-alt" style="color: #f7c948;" aria-hidden="true"></i>
-                Blockscan · wallet
-            </a>
-            <span style="color: #4f6390; display: flex; align-items: center; gap: 6px; font-size: clamp(0.7rem, 0.9vw, 0.85rem);">
-                <i class="fas fa-circle-check" style="color: #4ade80;" aria-hidden="true"></i> live on-chain
-            </span>
-        </div>
+            <div class="donate-wallet-wrapper">
+                <div class="donate-wallet" id="donateWallet">
+                    8Ac2rqrByi4oDi6KiYt53h3tzPCXE9YqFbz2eLxMhi81
+                </div>
+                <button class="donate-copy-btn" id="donateCopyBtn" onclick="copyDonateWallet()">
+                    <i class="fas fa-copy" aria-hidden="true"></i> Copy Wallet
+                </button>
+            </div>
 
-        <!-- ====== FOOTER ====== -->
-        <footer class="footnote">
-            <span><i class="fas fa-sync-alt fa-fw" aria-hidden="true"></i> PumpSwap only · Solana</span>
-            <span><i class="fas fa-robot" aria-hidden="true"></i> 100% community driven</span>
-            <span><i class="fas fa-chart-simple" aria-hidden="true"></i> next pump: <strong style="color: #f7c948;">incoming</strong></span>
-            <span><i class="fas fa-shield-alt" aria-hidden="true"></i> no rugs, just pumps</span>
-        </footer>
+            <p class="donate-thanks">
+                <i class="fas fa-hands-praying" aria-hidden="true"></i>
+                Thank you for being part of PumpSwap Elite!
+                <i class="fas fa-heart" aria-hidden="true"></i>
+            </p>
+        </section>
+
+        <!-- ====== SOCIAL LINKS SECTION ====== -->
+        <section class="social-section" aria-label="Social media links">
+            <h3>
+                <i class="fas fa-globe" aria-hidden="true"></i>
+                Join Our Community
+                <i class="fas fa-heart" aria-hidden="true"></i>
+            </h3>
+            <div class="social-buttons">
+                <a href="https://t.me/pumpswap2" target="_blank" rel="noopener noreferrer" class="social-btn telegram-btn" aria-label="Join Telegram channel">
+                    <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="https://x.com/pumpswap1" target="_blank" rel="noopener noreferrer" class="social-btn x-btn" aria-label="Follow on X">
+                    <i class="fab fa-x-twitter" aria-hidden="true"></i>
+                    <span>X (Twitter)</span>
+                </a>
+            </div>
+        </section>
     </main>
 
     <script>
         // ================================================================
-        // COPY WALLET ADDRESS
+        // COPY WALLET ADDRESS (MAIN)
         // ================================================================
         function copyWallet() {
             const walletAddr = document.getElementById('walletDisplay').textContent.trim();
@@ -1129,10 +1289,41 @@
         }
 
         // ================================================================
-        // SHARE FUNCTIONS
+        // COPY DONATE WALLET ADDRESS
+        // ================================================================
+        function copyDonateWallet() {
+            const walletAddr = document.getElementById('donateWallet').textContent.trim();
+            navigator.clipboard.writeText(walletAddr).then(() => {
+                const btn = document.getElementById('donateCopyBtn');
+                btn.innerHTML = '<i class="fas fa-check" aria-hidden="true"></i> Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = '<i class="fas fa-copy" aria-hidden="true"></i> Copy Wallet';
+                    btn.classList.remove('copied');
+                }, 2500);
+            }).catch(() => {
+                const input = document.createElement('input');
+                input.value = walletAddr;
+                document.body.appendChild(input);
+                input.select();
+                document.execCommand('copy');
+                document.body.removeChild(input);
+                alert('Donate wallet address copied!');
+            });
+        }
+
+        // ================================================================
+        // SHARE FUNCTIONS (WITH LINE BREAKS)
         // ================================================================
         const SHARE_URL = encodeURIComponent('https://x00100.github.io/Pumpswap/');
-        const SHARE_TEXT = encodeURIComponent('🐋 FOLLOW THIS WALLET → BECOME A MILLIONAIRE! Copy the top Solana whale. Turn $1K into $10K+ in 48 hours. Join the elite. Get rich. 🚀 #Solana #PumpSwap #Crypto #Millionaire');
+        
+        const SHARE_TEXT = encodeURIComponent(
+            '🐋 FOLLOW THIS WALLET → BECOME A MILLIONAIRE!\n\n' +
+            'Copy the top Solana whale.\n' +
+            'Turn $1K into $10K+ in 48 hours.\n' +
+            'Join the elite. Get rich.\n\n' +
+            '🚀 #Solana #PumpSwap #Crypto #Millionaire'
+        );
 
         function shareOnTwitter() {
             window.open(`https://twitter.com/intent/tweet?text=${SHARE_TEXT}&url=${SHARE_URL}`, '_blank', 'width=600,height=400');
@@ -1212,7 +1403,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             startTimer();
 
-            document.querySelectorAll('a[href*="blockscan.com"], a[href*="pumpswap.io"], a[href*="solana.com"], a[href*="solscan.io"], a[href*="dexscreener.com"]').forEach(link => {
+            document.querySelectorAll('a[href*="blockscan.com"]').forEach(link => {
                 link.setAttribute('target', '_blank');
                 link.setAttribute('rel', 'noopener noreferrer');
             });
